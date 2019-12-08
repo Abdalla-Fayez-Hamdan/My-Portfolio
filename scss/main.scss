@@ -25,7 +25,7 @@ h1,h2,h3{
         color: #000;
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: lighten($color: $seconndary-color, $amount: 2);
+        background: lighten($color: $secondary-color, $amount: 2);
         font-weight: bold;
     }
     // &.sm-heading{
@@ -47,7 +47,7 @@ header{
 }
 
 .text-secondary{
-    color: $seconndary-color;
+    color: $secondary-color;
 }
 
 main{
@@ -58,7 +58,7 @@ main{
         a{
             padding: 0.4rem;
             &:hover{
-                color: $seconndary-color;
+                color: $secondary-color;
                 @include easeOut;
             }
         }
