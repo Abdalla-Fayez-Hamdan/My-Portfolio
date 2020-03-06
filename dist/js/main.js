@@ -31,3 +31,32 @@ function ToggleMenu(){
         isMenuOpen = false;
     }
 }
+
+particlesJS('particles-js', 
+{
+    "particles": {
+        "number": {
+            "value": 75
+        },
+        "color": {
+            "value": "#ffffff"
+        },
+        "size": {
+            "value": 2.2,
+            "anim": {
+                "enable": true,
+                "speed": 22
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#5bf45e",
+            "opacity": 0.4,
+            "width": 1
+        }
+    }
+}
+, function() {
+    console.log('callback - particles.js config loaded');
+});
